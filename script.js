@@ -7,8 +7,9 @@ btn.innerText = "increament";
 btn.id = "incrementBtn";
 document.body.append(counter,btn);
 let count = 0;
-p.innerText = count;
+counter.innerText = count;
 btn.addEventListener("click", ()=>{
+	alert(count);
 	count++;
-	p.innerText = count;
+	counter.innerText = count;
 })
